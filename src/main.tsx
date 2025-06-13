@@ -12,5 +12,6 @@ root.render(
     <BrowserRouter basename="/github-repository-explorer">
       <App />
     </BrowserRouter>
+    
   </React.StrictMode>
 );
