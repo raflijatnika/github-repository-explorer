@@ -34,7 +34,11 @@ pnpm
 
 2; Change **.env.example** to **.env**
 
-You must change the .env.example to .env and match it with you local machine.
+You must change the .env.example to .env and match it like this:
+
+```shell
+VITE_API_URL=https://api.github.com
+```
 
 3; Run project for development
 
@@ -97,7 +101,9 @@ Project structure:
 
 ---
 
-2. Router, just like common routes, this project using [react router v7](https://reactrouter.com/home):
+## Router
+
+Router, just like common routes, this project using [react router v7](https://reactrouter.com/home)
 
 ---
 
